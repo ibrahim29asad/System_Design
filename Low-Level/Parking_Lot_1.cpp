@@ -54,7 +54,6 @@ void Set_Vehicle(string vehicle_name, int vehicle_cost, string vehicle_space){  
     }
 }
 
-
 void Add_Vehicle(string vehicle_name){
     
     if(vehicle_types.count(vehicle_name) > 0){
