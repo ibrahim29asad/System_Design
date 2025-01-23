@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "vending_machine_2": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "unordered_map": "cpp"
     }
 }
