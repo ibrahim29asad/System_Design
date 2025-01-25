@@ -10,6 +10,9 @@
         "deque": "cpp",
         "ios": "cpp",
         "string": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "__locale": "cpp",
+        "string_view": "cpp",
+        "stdexcept": "cpp"
     }
 }

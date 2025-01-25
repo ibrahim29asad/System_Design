@@ -9,8 +9,6 @@ vector<vector<string>> Board;
 // could put a set but it adds more space used when it is not needed
 int move = 0; // will only check for wins once the 5th move and makes sure to keep 9 moves
 
-
-
 tic_tac_toe(){
     Board = vector<vector<string>>(3, vector<string>(3, "-")); // creates your instance of the board
 }
