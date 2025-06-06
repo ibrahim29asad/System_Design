@@ -40,6 +40,10 @@ class Test:
             return nums
         if k == 0:
             return nums
+        if k < 0:
+            return nums
+        if not nums:
+            return []
             
         # Nums = [1, 2, 3] and k=2
         # [3, 1, 2]    
@@ -54,7 +58,14 @@ class Test:
         # 
         # number of rotations i need to make k // len(nums)
         # i have to focus on getting the next value
-        k = k // len(nums)
+        mk = k % len(nums)
+        k = mk
+        
+        
+
+
+
+
         # if k is 5 i roate by 2 
         # 3 1 2
 
@@ -78,9 +89,11 @@ class Test:
                  
         return nums
 
-def __init__(self):
-    print("Hello World")
-    nums = [1, 2, 3]
-    k = 2
-    new_nums = self.RotateList(nums, k)
-    print(new_nums)
+    def __init__(self):
+        print("Hello World")
+        nums = [1, 2, 3]
+        
+        new_nums = self.RotateList(nums, k)
+        print(new_nums)
+
+t = Test()
